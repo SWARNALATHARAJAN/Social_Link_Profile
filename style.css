@@ -15,10 +15,9 @@ body{
     background-color: black;
     color: white;
     font-weight: 600;
-    
+    min-height: 100vh;
 }
 .container{
-    min-height : 100hv;
     background-color:  hsl(0, 0%, 20%);
     border-radius: 15px;
     display: grid;
@@ -53,7 +52,7 @@ p {
 ul{
     list-style: none;
     font-weight: 700;
-    width: 100%;
+    width:400px;
 }
 li{
     background-color: hsl(0, 0%, 12%);
