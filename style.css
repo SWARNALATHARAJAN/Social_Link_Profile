@@ -9,31 +9,62 @@
 body{
     font-family: "Figtree", system-ui;
     font-size: 14px;
-    margin: auto;
-    padding: auto;
     display: grid;
     align-items: center;
     justify-content: center;
     background-color: black;
     color: white;
+    font-weight: 600;
     
 }
 .container{
-    min-height:100hv ;
+    min-height : 100hv;
     background-color:  hsl(0, 0%, 20%);
-    border-radius: 15%;
+    border-radius: 15px;
     display: grid;
     justify-items: center;
     text-align: center;
-    gap: 0.5rem;
+    gap: 1rem;
     padding-top: 1.5rem;
     padding-inline: 1.5rem;
     padding-bottom: 0.5rem;
 }
 .card{
-   
+    place-items: center;
+    justify-items: center;
+    margin: 0 auto;
     text-align: center;
-
+    padding-inline: 0.5rem;
+    
+}
+h1{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+h5{
+    color: hsl(75, 94%, 57%);
+    font-size: 1rem;
+    font-weight: 600;
+}
+p {
+    padding: 1rem 1.5rem;
+    font-weight: 400;
+  }
+ul{
+    list-style: none;
+    font-weight: 700;
+    width: 100%;
+}
+li{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+li:hover{
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    color: black;
 }
 .card .card-img img{
     display: center;
